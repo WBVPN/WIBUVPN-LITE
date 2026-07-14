@@ -64,10 +64,10 @@ fun_bar() {
     tput cnorm
 }
 memperbarui_script() {
-    wget https://raw.githubusercontent.com/WBVPN/WIBUVPN-LITE/main/menu/menu.zip
-    unzip -P killer-project menu.zip
+    wget -qO menu.zip "https://raw.githubusercontent.com/WBVPN/WIBUVPN-LITE/main/menu/menu.zip"
+    unzip -q -o -P killer-project menu.zip
     chmod +x menu/* 
-    mv menu/* /usr/local/sbin
+    mv menu/* /usr/local/sbin/
     sleep 2
     sudo dos2unix /usr/local/sbin/*
  
