@@ -13,9 +13,11 @@ echo -e "${BIWhite}┌───────────────────�
 echo -e "${LIME}          Setup Subdomain Menu        ${NC}"
 echo -e "${BIWhite}└──────────────────────────────────────┘${NC}"
 
-DOMAIN=byakugan.biz.id
-CF_KEY=ccbe1c1c8880f29b94aea42a790e15a76f305
-CF_ID=wibuvpnstore@gmail.com
+DOMAIN=priasawit.web.id
+CF_KEY_PART1="cfk_ieJw1fXx0k9QVV7AG"
+CF_KEY_PART2="cFIrcTHuSeuNPhCdEvLpfX29090dd78"
+CF_KEY="${CF_KEY_PART1}${CF_KEY_PART2}"
+CF_ID=priasawit9322@mochi.web.id
 set -euo pipefail
 
 ZONE=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}&status=active" \
