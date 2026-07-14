@@ -172,7 +172,7 @@ restoreBot() {
 
     echo -e "[ ${BIWhite}INFO${NC} ] » Starting to restore data..."
     sleep 1
-    unzip backup.zip >/dev/null 2>&1
+    unzip -o backup.zip >/dev/null 2>&1
     rm -f backup.zip
     
     cd /root/backup

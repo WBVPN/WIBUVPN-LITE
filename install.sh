@@ -860,7 +860,7 @@ function memasang_menu(){
     print_install "Memasang Menu"
     wget -q ${REPO}speedtest.sh && chmod +x speedtest.sh
     wget -T 5 -q ${REPO}menu/menu.zip
-    unzip -P killer-project menu.zip 
+    unzip -o -P killer-project menu.zip 
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     sleep 2
@@ -1146,7 +1146,7 @@ function memasang_noobz() {
   clear
   print_install "Memasang Noobzvpns"
   wget -T 5 ${REPO}noobzvpns.zip
-  unzip noobzvpns.zip
+  unzip -o noobzvpns.zip
   rm -rf noobzvpns.zip noobzvpns.zip.1 noobzvpns.zip.2 noobzvpns.zip.3 noobzvpns.zip.4
   cd noobzvpns
   chmod +x install.sh

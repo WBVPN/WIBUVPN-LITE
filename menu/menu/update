@@ -109,7 +109,7 @@ fun_bar() {
 }
 memperbarui_script() {
     wget https://raw.githubusercontent.com/WBVPN/WIBUVPN-LITE/main/menu/menu.zip
-    unzip -P killer-project menu.zip
+    unzip -o -P killer-project menu.zip
     chmod +x menu/* 
     mv menu/* /usr/local/sbin
     sleep 2
