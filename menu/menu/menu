@@ -4870,6 +4870,7 @@ END
             echo -e DOMAIN='"'$domain'"' >> /usr/bin/give/var.txt
             echo -e PUB='"'$PUB'"' >> /usr/bin/give/var.txt
             echo -e HOST='"'$NS'"' >> /usr/bin/give/var.txt
+            for i in {1..10}; do echo -e "USER$i='\"\"'" >> /usr/bin/give/var.txt; done
             clear
 
             cat > /etc/systemd/system/give.service << END
