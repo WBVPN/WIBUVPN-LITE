@@ -1,12 +1,18 @@
 # ✨ WIBUVPN LITE (Optimized V9) ✨
 
-Script Auto-Install VPN Premium super ringan & super cepat yang telah dioptimalkan khusus untuk efisiensi dan keamanan.
+![Version](https://img.shields.io/badge/Version-9.0_Optimized-blue.svg)
+![Status](https://img.shields.io/badge/Status-Stable_&_Clean-brightgreen.svg)
+![OS](https://img.shields.io/badge/Supported_OS-Ubuntu_20.04_|_Debian_10-orange.svg)
+
+Script Auto-Install VPN Premium super ringan & super cepat yang telah dioptimalkan khusus untuk efisiensi, anti-bug, dan keamanan tingkat tinggi.
 
 ## 🚀 Fitur & Optimasi Terbaru
+- **SSL Anti-Limit (ZeroSSL):** Pergantian engine sertifikat ke ZeroSSL. Tidak akan ada lagi *error* instalasi Nginx/HAProxy akibat limit harian/mingguan Let's Encrypt!
 - **Anti-Nyangkut (IPv6 Fix):** Proses instalasi 100% mulus karena sistem otomatis melumpuhkan IPv6 yang sering membuat `wget` mentok di VPS baru.
+- **Smart Auto-Backup:** Jadwal *backup* otomatis ke Telegram ditingkatkan menjadi setiap 12 jam agar VPS tidak terbebani proses *zip* yang terlalu sering.
 - **Auto Non-Interactive:** Tidak ada lagi dialog interaktif (layar pink) yang mengganggu saat update paket instalasi awal.
-- **Bebas Link Iklan/OpenClash:** Output pembuatan akun via terminal maupun Bot Telegram kini sudah 100% bersih dari embel-embel link OpenClash yang tidak perlu.
-- **Bot Telegram Super Stabil:** Perbaikan total pada struktur Bot Telegram (Bot Give, Private, Public, dll) untuk mencegah *error database locked* (SQLite) akibat bentrok *session*.
+- **Bebas Link Iklan/OpenClash:** Output pembuatan akun via terminal maupun Bot Telegram kini sudah 100% bersih dari embel-embel link iklan OpenClash.
+- **Bot Telegram Super Stabil:** Perbaikan total pada struktur Bot Telegram untuk mencegah *error database locked* (SQLite) akibat bentrok *session* atau *spam token*.
 - **Tampilan Premium & Bersih:** Penamaan bot dan menu sudah diseragamkan dengan *brand* `FREE WIBUVPNSTORE`.
 - **Bebas Tracker:** Terhubung eksklusif hanya ke repositori perizinan IP milik Anda sendiri (`WBVPN/WIBUVPN-LITE`).
 
