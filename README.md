@@ -16,10 +16,7 @@ Untuk memastikan VPS dalam keadaan bersih dan kernel terbaru sebelum instalasi V
 
 **❇️ Langkah Pertama (Update & Restart):**
 ```bash
-export DEBIAN_FRONTEND=noninteractive
-export NEEDRESTART_MODE=a
-export NEEDRESTART_SUSPEND=1
-apt update -y && apt upgrade -y --fix-missing && apt install -y xxd bzip2 wget curl sudo build-essential bsdmainutils screen dos2unix && update-grub && apt dist-upgrade -y && sleep 2 && reboot
+export DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a NEEDRESTART_SUSPEND=1; apt update -y && apt upgrade -y && apt install -y wget curl screen dos2unix && reboot
 ```
 *(Setelah menjalankan perintah di atas, VPS Anda akan terputus/restart otomatis. Tunggu 1-2 menit, lalu login kembali ke VPS Anda).*
 
