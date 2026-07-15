@@ -2117,12 +2117,11 @@ m_bot_notif() {
 
         mkdir -p /etc/bot
 
-        local DATADB=$(grep "^#bot#" /etc/bot/.bot.db 2>/dev/null | grep -w "${bottoken}" | awk '{print $2}' 2>/dev/null)
-        if [[ -n "${DATADB}" ]]; then
-          sed -i "/\b${bottoken}\b/d" /etc/bot/.bot.db
-        fi
-
-        echo "#bot# ${bottoken} ${admin}" >> /etc/bot/.bot.db
+        # Hapus sisa-sisa database bot lama (biar nggak numpuk dan error)
+        rm -f /etc/bot/.bot.db
+        
+        # Buat database bot baru yang bersih
+        echo "#bot# ${bottoken} ${admin}" > /etc/bot/.bot.db
 
         echo -e "${BIWhite}──────────────────────────────────────${NC}"
         echo -e "${BIBlue}SUCCESSFULLY ADDED BOT NOTIFICATION${NC}"
