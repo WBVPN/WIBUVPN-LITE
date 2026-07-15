@@ -16,13 +16,16 @@ Untuk memastikan VPS dalam keadaan bersih dan kernel terbaru sebelum instalasi V
 
 **❇️ Langkah Pertama (Update & Restart):**
 ```bash
+export DEBIAN_FRONTEND=noninteractive
+export NEEDRESTART_MODE=a
+export NEEDRESTART_SUSPEND=1
 apt update -y && apt upgrade -y --fix-missing && apt install -y xxd bzip2 wget curl sudo build-essential bsdmainutils screen dos2unix && update-grub && apt dist-upgrade -y && sleep 2 && reboot
 ```
 *(Setelah menjalankan perintah di atas, VPS Anda akan terputus/restart otomatis. Tunggu 1-2 menit, lalu login kembali ke VPS Anda).*
 
 **❇️ Langkah Kedua (Instalasi Inti):**
 ```bash
-screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/WBVPN/WIBUVPN-LITE/main/install.sh && chmod +x install.sh && ./install.sh; read -p \"Tekan enter untuk keluar...\""
+wget -O install.sh https://raw.githubusercontent.com/WBVPN/WIBUVPN-LITE/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 ---
