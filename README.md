@@ -6,6 +6,17 @@
 
 Script Auto-Install VPN Premium super ringan & super cepat yang telah dioptimalkan khusus untuk efisiensi, anti-bug, dan keamanan tingkat tinggi.
 
+## 💻 Kebutuhan Sistem (OS)
+Script ini direkomendasikan dan dirancang khusus untuk berjalan dengan sangat lancar pada:
+* **Ubuntu 20.04** (Sangat Direkomendasikan)
+* **Debian 10**
+
+## 🌐 Protokol & Layanan yang Didukung
+* **SSH & OpenVPN:** Mendukung Websocket & Stunnel
+* **Xray Core:** Vmess, Vless, Trojan, Shadowsocks (Multiport via HAProxy/Nginx)
+* **SlowDNS:** DNS Tunneling Premium
+* **NoobzVPN:** Protokol kustom anti-blokir berkecepatan tinggi
+
 ## 🚀 Fitur & Optimasi Terbaru
 - **SSL Anti-Limit (ZeroSSL):** Pergantian engine sertifikat ke ZeroSSL. Tidak akan ada lagi *error* instalasi Nginx/HAProxy akibat limit harian/mingguan Let's Encrypt!
 - **Anti-Nyangkut (IPv6 Fix):** Proses instalasi 100% mulus karena sistem otomatis melumpuhkan IPv6 yang sering membuat `wget` mentok di VPS baru.
@@ -15,6 +26,12 @@ Script Auto-Install VPN Premium super ringan & super cepat yang telah dioptimalk
 - **Bot Telegram Super Stabil:** Perbaikan total pada struktur Bot Telegram untuk mencegah *error database locked* (SQLite) akibat bentrok *session* atau *spam token*.
 - **Tampilan Premium & Bersih:** Penamaan bot dan menu sudah diseragamkan dengan *brand* `FREE WIBUVPNSTORE`.
 - **Bebas Tracker:** Terhubung eksklusif hanya ke repositori perizinan IP milik Anda sendiri (`WBVPN/WIBUVPN-LITE`).
+
+---
+
+## 📞 Hubungi Developer
+Untuk pertanyaan lebih lanjut atau pendaftaran IP, silakan hubungi:
+👉 **[t.me/wibuvpn](https://t.me/wibuvpn)**
 
 ---
 
