@@ -2762,8 +2762,6 @@ Link WS None TLS : ${nonsslinkws}
 -----------------------------------------
 Link GRPC : ${sslinkgrpc}
 -----------------------------------------
-Format OpenClash : https://${domain}:81/ss-$user.txt
------------------------------------------
 Aktif Selama   : $masaaktif Hari
 Dibuat Pada    : $tnggl
 Berakhir Pada  : $expe
@@ -2910,8 +2908,6 @@ END
         echo -e "${Lime}-----------------------------------------${NC}"
         echo -e "Link GRPC : ${sslinkgrpc}"
         echo -e "${Lime}-----------------------------------------${NC}"
-        echo -e "Format OpenClash : https://${domain}:81/ss-$user.txt"
-        echo -e "${Lime}-----------------------------------------${NC}"
         echo -e "Aktif Selama   : $masaaktif Hari"
         echo -e "Dibuat Pada    : $tnggl"
         echo -e "Berakhir Pada  : $expe"
@@ -3013,8 +3009,6 @@ Link WS TLS : ${sslinkws}
 Link WS None TLS : ${nonsslinkws}
 -----------------------------------------
 Link GRPC : ${sslinkgrpc}
------------------------------------------
-Format OpenClash : https://${domain}:81/ss-$user.txt
 -----------------------------------------
 Dibuat Pada    : $tnggl
 Aktif Selama   : $pup Minutes
@@ -3163,8 +3157,6 @@ END
         echo -e "Link WS None TLS : ${nonsslinkws}"
         echo -e "${Lime}-----------------------------------------${NC}"
         echo -e "Link GRPC : ${sslinkgrpc}"
-        echo -e "${Lime}-----------------------------------------${NC}"
-        echo -e "Format OpenClash : https://${domain}:81/ss-$user.txt"
         echo -e "${Lime}-----------------------------------------${NC}"
         echo -e "Dibuat Pada    : $tnggl"
         echo -e "Aktif Selama   : $pup Minutes"
@@ -5350,8 +5342,6 @@ Link TLS         : ${trojanlink}
 -----------------------------------------
 Link GRPC        : ${trojanlink1}
 -----------------------------------------
-Format OpenClash : https://${domain}:81/trojan-$user.txt
------------------------------------------
 Aktif Selama     : $masaaktif Hari
 Dibuat Pada      : $tnggl
 Berakhir Pada    : $expe
@@ -5476,8 +5466,6 @@ END
         echo -e "${Lime}-----------------------------------------${NC}" 
         echo -e "Link GRPC        : ${trojanlink1}" 
         echo -e "${Lime}-----------------------------------------${NC}" 
-        echo -e "Format OpenClash : https://${domain}:81/trojan-$user.txt" 
-        echo -e "${Lime}-----------------------------------------${NC}" 
         echo -e "Aktif Selama     : $masaaktif Hari"
         echo -e "Dibuat Pada      : $tnggl"
         echo -e "Berakhir Pada    : $expe"
@@ -5559,8 +5547,6 @@ ServiceName      : trojan-grpc
 Link TLS         : ${trojanlink}
 -----------------------------------------
 Link GRPC        : ${trojanlink1}
------------------------------------------
-Format OpenClash : https://${domain}:81/trojan-$user.txt
 -----------------------------------------
 Dibuat Pada      : $tnggl
 Aktif Selama     : $pup Minutes
@@ -5687,8 +5673,6 @@ END
         echo -e "Link TLS         : ${trojanlink}" 
         echo -e "${Lime}-----------------------------------------${NC}" 
         echo -e "Link GRPC        : ${trojanlink1}" 
-        echo -e "${Lime}-----------------------------------------${NC}" 
-        echo -e "Format OpenClash : https://${domain}:81/trojan-$user.txt" 
         echo -e "${Lime}-----------------------------------------${NC}" 
         echo -e "Dibuat Pada      : $tnggl"
         echo -e "Aktif Selama     : $pup Minutes"
@@ -6504,8 +6488,6 @@ Link NTLS   : ${vlesslink2}
 -----------------------------------------
 Link GRPC   : ${vlesslink3}
 -----------------------------------------
-Format OpenClash : https://${domain}:81/vless-$user.txt
------------------------------------------
 Aktif Selama     : $masaaktif Hari
 Dibuat Pada      : $tnggl
 Berakhir Pada    : $expe
@@ -6622,8 +6604,6 @@ END
         echo -e "\033[1;93m-----------------------------------------\033[0m"
         echo -e "Link GRPC   : ${vlesslink3}"
         echo -e "\033[1;93m-----------------------------------------\033[0m"
-        echo -e "Format OpenClash : https://${domain}:81/vless-$user.txt"
-        echo -e "\033[1;93m-----------------------------------------\033[0m"
         echo -e "Aktif Selama     : $masaaktif Hari"
         echo -e "Dibuat Pada      : $tnggl"
         echo -e "Berakhir Pada    : $expe"
@@ -6730,8 +6710,6 @@ Link TLS    : ${vlesslink1}
 Link NTLS   : ${vlesslink2}
 -----------------------------------------
 Link GRPC   : ${vlesslink3}
------------------------------------------
-Format OpenClash : https://${domain}:81/vless-$user.txt
 -----------------------------------------
 Dibuat Pada      : $tnggl
 Aktif Selama     : $pup Minutes
@@ -6850,8 +6828,6 @@ END
         echo -e "Link NTLS   : ${vlesslink2}"
         echo -e "\033[1;93m-----------------------------------------\033[0m"
         echo -e "Link GRPC   : ${vlesslink3}"
-        echo -e "\033[1;93m-----------------------------------------\033[0m"
-        echo -e "Format OpenClash : https://${domain}:81/vless-$user.txt"
         echo -e "\033[1;93m-----------------------------------------\033[0m"
         echo -e "Dibuat Pada      : $tnggl"
         echo -e "Aktif Selama     : $pup Minutes"
