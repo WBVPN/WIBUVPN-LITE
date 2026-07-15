@@ -1,9 +1,9 @@
 #!/bin/bash
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
+sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 export DEBIAN_FRONTEND=noninteractive
 export NEEDRESTART_MODE=a
 export NEEDRESTART_SUSPEND=1
-clear
-export DEBIAN_FRONTEND=noninteractive
 FONT='\033[0m'
 Green="\e[92;1m"
 YELLOW='\033[1;33m'
