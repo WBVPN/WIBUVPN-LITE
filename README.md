@@ -2,11 +2,13 @@
 
 Script Auto-Install VPN Premium super ringan & super cepat yang telah dioptimalkan khusus untuk efisiensi dan keamanan.
 
-## 🚀 Fitur & Optimasi
+## 🚀 Fitur & Optimasi Terbaru
+- **Anti-Nyangkut (IPv6 Fix):** Proses instalasi 100% mulus karena sistem otomatis melumpuhkan IPv6 yang sering membuat `wget` mentok di VPS baru.
+- **Auto Non-Interactive:** Tidak ada lagi dialog interaktif (layar pink) yang mengganggu saat update paket instalasi awal.
+- **Bebas Link Iklan/OpenClash:** Output pembuatan akun via terminal maupun Bot Telegram kini sudah 100% bersih dari embel-embel link OpenClash yang tidak perlu.
+- **Bot Telegram Super Stabil:** Perbaikan total pada struktur Bot Telegram (Bot Give, Private, Public, dll) untuk mencegah *error database locked* (SQLite) akibat bentrok *session*.
+- **Tampilan Premium & Bersih:** Penamaan bot dan menu sudah diseragamkan dengan *brand* `FREE WIBUVPNSTORE`.
 - **Bebas Tracker:** Terhubung eksklusif hanya ke repositori perizinan IP milik Anda sendiri (`WBVPN/WIBUVPN-LITE`).
-- **JSDelivr CDN:** Membuka kecepatan download maksimal tanpa terkena *rate-limit* GitHub di VPS Indonesia.
-- **Auto Non-Interactive:** Tidak ada lagi dialog interaktif yang mengganggu saat instalasi paket (anti-nyangkut di layar biru/pink).
-- **Paralel Service:** *Restart* puluhan *service* dilakukan secara paralel, tidak perlu menunggu satu-satu.
 
 ---
 
