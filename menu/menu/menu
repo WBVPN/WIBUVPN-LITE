@@ -7689,8 +7689,6 @@ Link none TLS    : ${vmesslink2}
 -----------------------------------------
 Link GRPC        : ${vmesslink3}
 -----------------------------------------
-Open Clash       : https://${domain}:81/vmess-$user.txt
------------------------------------------
 Aktif Selama     : $masaaktif Hari
 Dibuat Pada      : $tnggl
 Berakhir Pada    : $expe
@@ -7805,8 +7803,6 @@ END
     echo -e "Link none TLS    : ${vmesslink2}"
     echo -e "\033[1;93m-----------------------------------------\033[0m"
     echo -e "Link GRPC        : ${vmesslink3}"
-    echo -e "\033[1;93m-----------------------------------------\033[0m"
-    echo -e "Open Clash       : https://${domain}:81/vmess-$user.txt"
     echo -e "\033[1;93m-----------------------------------------\033[0m"
     echo -e "Aktif Selama     : $masaaktif Hari"
     echo -e "Dibuat Pada      : $tnggl"
@@ -7957,8 +7953,6 @@ Link none TLS    : ${vmesslink2}
 -----------------------------------------
 Link GRPC        : ${vmesslink3}
 -----------------------------------------
-Open Clash       : https://${domain}:81/vmess-$user.txt
------------------------------------------
 Dibuat Pada      : $tnggl
 Aktif Selama     : $pup Minutes
 -----------------------------------------
@@ -8075,8 +8069,6 @@ END
     echo -e "Link none TLS    : ${vmesslink2}"
     echo -e "\033[1;93m-----------------------------------------\033[0m"
     echo -e "Link GRPC        : ${vmesslink3}"
-    echo -e "\033[1;93m-----------------------------------------\033[0m"
-    echo -e "Open Clash       : https://${domain}:81/vmess-$user.txt"
     echo -e "\033[1;93m-----------------------------------------\033[0m"
     echo -e "Dibuat Pada      : $tnggl"
     echo -e "Aktif Selama     : $pup Minutes"
@@ -8898,8 +8890,6 @@ HTTP CUSTOM      : $domain:1-65535@$user:$Pass"
 -----------------------------------------
 Payload          : GET /cdn-cgi/trace HTTP/1.1[crlf]Host: Bug_Kalian[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
 -----------------------------------------
-Save Link Account: https://$domain:81/ssh-$user.txt
------------------------------------------
 Aktif Selama     : $masaaktif Hari
 Dibuat Pada      : $tnggl
 Berakhir Pada    : $expe
@@ -8932,8 +8922,6 @@ BadVPN UDP       : 7100, 7300, 7300
 HTTP CUSTOM      : $domain:1-65535@$user:$Pass"
 -----------------------------------------
 Payload          : GET /cdn-cgi/trace HTTP/1.1[crlf]Host: Bug_Kalian[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
------------------------------------------
-Save Link Account: https://$domain:81/ssh-$user.txt
 -----------------------------------------
 Aktif Selama     : $masaaktif Hari
 Dibuat Pada      : $tnggl
@@ -8986,8 +8974,6 @@ END
         echo -e "HTTP CUSTOM      : $domain:1-65535@$user:$Pass"
         echo -e "\033[1;93m-----------------------------------------\033[0m"
         echo -e "Payload          : GET /cdn-cgi/trace HTTP/1.1[crlf]Host: Bug_Kalian[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
-        echo -e "\033[1;93m-----------------------------------------\033[0m"
-        echo -e "Save Link Account: https://$domain:81/ssh-$user.txt"
         echo -e "\033[1;93m-----------------------------------------\033[0m"
         echo -e "Aktif Selama     : $masaaktif Hari"
         echo -e "Dibuat Pada      : $tnggl"
@@ -9104,8 +9090,6 @@ HTTP CUSTOM      : $domain:1-65535@$user:$Pass"
 -----------------------------------------
 Payload          : GET /cdn-cgi/trace HTTP/1.1[crlf]Host: Bug_Kalian[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
 -----------------------------------------
-Save Link Account: https://$domain:81/ssh-$user.txt
------------------------------------------
 Dibuat Pada      : $tnggl
 Aktif Selama     : $pup Minutes
 -----------------------------------------
@@ -9137,8 +9121,6 @@ BadVPN UDP       : 7100, 7300, 7300
 HTTP CUSTOM      : $domain:1-65535@$user:$Pass"
 -----------------------------------------
 Payload          : GET /cdn-cgi/trace HTTP/1.1[crlf]Host: Bug_Kalian[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
------------------------------------------
-Save Link Account: https://$domain:81/ssh-$user.txt
 -----------------------------------------
 Dibuat Pada      : $tnggl
 Aktif Selama     : $pup Minutes
@@ -9190,8 +9172,6 @@ END
         echo -e "HTTP CUSTOM      : $domain:1-65535@$user:$Pass"
         echo -e "\033[1;93m-----------------------------------------\033[0m"
         echo -e "Payload          : GET /cdn-cgi/trace HTTP/1.1[crlf]Host: Bug_Kalian[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
-        echo -e "\033[1;93m-----------------------------------------\033[0m"
-        echo -e "Save Link Account: https://$domain:81/ssh-$user.txt"
         echo -e "\033[1;93m-----------------------------------------\033[0m"
         echo -e "Dibuat Pada      : $tnggl"
         echo -e "Aktif Selama     : $pup Minutes"
